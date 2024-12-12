@@ -40,7 +40,7 @@ public class SubmitOrderTest extends BaseTest
 	{
 	
 	// LandingPage landingPage = launchPageApplication();   -no need this because we already run it using Before method
-	
+	// Changes done here
 	ProductCatolog productCatolog = landingPage.loginApplication(email, password);
 	
 	List<WebElement> products = productCatolog.getProductList();
