@@ -35,7 +35,7 @@ public class ErrorValidationTest extends BaseTest
 	String productName ="ADIDAS ORIGINAL";	
 
 	// LandingPage landingPage = launchPageApplication();   -no need this because we already run it using Before method
-	
+	// change 2
 	ProductCatolog productCatolog = landingPage.loginApplication("ame@gmail.com", "Cvmad135");
 	
 	List<WebElement> products = productCatolog.getProductList();
